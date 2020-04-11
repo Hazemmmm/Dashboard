@@ -1,0 +1,161 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto); */
+
+/* 
+header, footer{
+  background-color: white;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}*/
+html, body{
+  height:100%;
+  margin:0 auto;
+  padding:0;
+  background-color: black;
+}
+
+#mymap{
+  position: relative;
+  width: 68%;
+  height: 60%;
+}
+
+
+
+                         /* /////////////dropdownlist////////////// */
+
+  .dropdownlist{
+    position: relative;
+    border-radius: 30px;
+    border-style: double;
+    width: 29%;
+    height: 60%;
+    /* margin-left: 1500px; */
+    margin-top: -440px;
+    background-color: black;
+    float:right;
+}
+#name, #continent, #ctys{
+  width: 135px;
+  color: white;
+  background-color: dimgray ;
+  font-size: 90%;
+}
+
+
+.ddl1{
+      position: fixed;
+      top: 100px;
+        right: -450px;
+        width:50%;
+}
+
+
+
+.ddl2{
+    position: fixed;
+    top: 150px;
+      right: -450px;
+      width:50%;
+}
+.ddl3{
+    position: fixed;
+    top: 200px;
+      right: -450px;
+      width:50%;
+}
+
+
+                         /* /////////////CHARTS////////////// */
+
+   #charts{
+    /* position: fixed; */
+    width: 68%;
+    height: 40%;
+    /* bottom: 20px; */
+    /* margin-left: 10px; */
+    
+    background-color: black;
+    /* float:right; */
+  } 
+  
+  
+    #chart{
+      position: fixed;
+      width: 25%;
+      height: 159px;
+      left: 60px;
+
+      bottom: 80px;
+      background-color: black;
+      /* left: 354px; */
+    } 
+ 
+   #piechart_3d{
+    position: fixed;
+      width: 25%;
+      height: 159px;
+      left: 500px;
+      bottom: 80px;
+      background-color: black;
+  } 
+/*
+  #piechart_3d1{
+    position: fixed;
+    width:39%;
+    height: 195px;
+    bottom: 0;
+    left: 8px;
+  }
+  #charts{
+    position: fixed;
+    width: 70%;
+    height: 212px;
+    top: 530px;
+
+  }
+  */
+
+
+
+
+
+  /* .links{
+
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: -212px;
+    color: rgb(7, 43,75);
+  }
+
+.link{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active{
+  background-color: gray;
+  border-radius: 10px;
+  opacity: 5px;
+  transition: 0.3s;
+
+}
+
+.tab{
+  border: 1px solid gray;
+  height: 195px;
+  display: none;
+}
+
+.tab:first-child{
+  display: block;
+}
+
+
+
+ */ 
